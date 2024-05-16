@@ -1,6 +1,6 @@
 ## 前言
 
-[zizifn 大佬的一个开源项目 edgetunnel](https://github.com/zizifn/edgetunnel) ，使得我们可以免费的在 Cloudflare 上面通过部署 Worker ，来创建一个免费 VLESS 节点！
+zizifn 大佬的一个开源项目 [edgetunnel](https://github.com/zizifn/edgetunnel) ，使得我们可以免费的在 Cloudflare 上面通过部署 Worker ，来创建一个免费 VLESS 节点！
 
 ### 何为 Cloudflare Worker?
 
