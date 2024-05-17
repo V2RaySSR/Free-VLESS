@@ -6,11 +6,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
-const proxyIPs = ["cdn.xn--b6gac.eu.org"]; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
-const cn_hostnames = [''];
-
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-
+let proxyIP = 'cdn.xn--b6gac.eu.org'; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
